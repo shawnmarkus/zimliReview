@@ -1,0 +1,6 @@
+.selectedCard{
+    background-color: white;
+    border-left-width: 5px;
+    border-style: solid;
+    border-color: #DC137B;
+}

@@ -1,0 +1,82 @@
+.modal_overlay{
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(15, 15, 15, 0.289);
+    z-index: 100;
+    backdrop-filter: blur(1px);
+}
+
+.modal_body{
+    height: 100% !important;
+    width: 100%;
+    display: flex;
+}
+
+.modal_container_wrapper{
+    /* width: 60vw; */
+    /* height: 55%; */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+
+.leftPartImg{
+    min-width: 40%;
+}
+
+.rightPartContent{
+    min-width: 60%;
+    padding: 2rem;
+    height: 100% !important;
+}
+
+.imgWrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.imageElement{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.disble_scroll{
+    overflow: hidden;
+    height: 100vh;
+}
+
+/* @media  (max-width:1200px){
+    .modal-container-wrapper{
+        width: 70vw;
+    }
+} */
+
+@media  (max-width:1080px){
+    /* .modal_container_wrapper{
+        width: 80vw;
+        min-height: 60vh;
+
+    } */
+
+    .leftPartImg{
+        height: 100%;
+        background-color: green !important;
+    }
+
+    .imageElement{
+        height: inherit;
+        object-fit: cover;
+    }
+}
+
+/* @media  (max-width:720px){
+    .modal_container_wrapper{
+        width: 90vw;
+    }
+} */

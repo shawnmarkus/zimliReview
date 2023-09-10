@@ -1,0 +1,3 @@
+const SNACKBAR_DURATION = 5000;
+
+export { SNACKBAR_DURATION };
